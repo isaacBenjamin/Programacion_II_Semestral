@@ -1,0 +1,74 @@
+/*- Elementos de la tabla periodica -*/
+table{
+    font-size: 1.7rem;
+}    
+.elemento {
+    border: 2px solid black;
+    padding: 0;
+    margin: 0;
+  
+  }
+
+  .elemento a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 10px;
+  }
+
+/* Celda Vacia para mantener la forma de la tabla */
+
+  .celda_vacia {
+    padding: 12px;
+  
+  }
+
+/*- Interacciones -*/
+
+.elemento a:hover{
+background-color: #031FA2 ;
+color: white;
+}
+
+/* Ids para darle los diferentes colores a los elementos */
+
+  #no_metales {
+    background-color: lightblue;
+  }
+
+  #met_alcalinos{
+    background-color: lightcoral;
+  }
+
+  #met_alc_terreos{
+    background-color: lightgoldenrodyellow;
+  }
+
+  #nobles{
+    background-color: lightgreen;
+  }
+
+  #halogenos{
+    background-color: lightpink;
+  }
+
+  #metaloides{
+    background-color: lightsalmon;
+  }
+
+  #metales_p{
+    background-color: lightskyblue;
+  }
+
+  #metales_d{
+    background-color: lightgray;
+  }
+
+  #lantanidos {
+    background-color: aquamarine;
+  }
+
+  #actinidos {
+    background-color: turquoise;
+  }
